@@ -1,0 +1,29 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+:root{
+  --background:#b5c5cb;
+  --primario:#e6ecee;
+  --secundario:#91a8b1;
+  --font-family:arial,helvetica,sans-serif;
+}
+
+body{
+  display: grid;
+  grid-template-rows: 50px 1fr 50px;
+}
+
+header{
+
+}
+
+main{
+  background-color:var(--background);
+}
+
+footer{
+
+}
